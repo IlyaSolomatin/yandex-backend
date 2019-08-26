@@ -1,0 +1,8 @@
+Flask==1.1.1
+jsonref==0.2
+jsonschema==3.0.1
+regex==2019.6.8
+requests==2.22.0
+requests-oauthlib==0.8.0
+requests-unixsocket==0.1.5
+
