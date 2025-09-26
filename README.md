@@ -1,11 +1,13 @@
 # yandex-backend
 
-# Как запустить сервис?
-1. Скачайте файлы из данного репозитория
-2. Убедитесь, что на вашем компьютере есть python>=3.6.5
-3. Установите необходимые модули из requirements.txt: $ pip (или pip3) install -r requirements.txt
-4. Установите gunicorn (или gunicorn3, если python3 не является основным питоном): $ sudo apt-get install gunicorn (или gunicorn3)
-5. Теперь все готово к запуску. Перейдите в директорию проекта и запустите $ gunicorn (или gunicorn3) -w 4 -b 0.0.0.0:8080 wsgi:app
+# This project is an entrance exam to the Yandex Backend School
 
-# Как запустить тесты?
-1. $ python (или python3) tester.py
+# How to run the service?
+1. Download the files from this repository
+2. Make sure you have python >= 3.6.5 installed on your computer
+3. Install the required modules from requirements.txt: $ pip (or pip3) install -r requirements.txt
+4. Install gunicorn (or gunicorn3 if python3 is not your default Python): $ sudo apt-get install gunicorn (or gunicorn3)
+5. Now everything is ready to run. Go to the project directory and start the service: $ gunicorn (or gunicorn3) -w 4 -b 0.0.0.0:8080 wsgi:app
+
+# How to run the tests?
+1. $ python (or python3) tester.py
